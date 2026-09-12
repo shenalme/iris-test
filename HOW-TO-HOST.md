@@ -29,13 +29,19 @@ the zip as-is, deploy.
 
 Drag this folder onto the Sites list, or **Add new site -> Deploy manually**.
 
-## Downloads at the end of a run
+## At the end of a run
+
+**Explore results** opens a linked view: the video replays with the recorded
+gaze drawn on it, above four timelines (events, gaze position, velocity, head
+pose) sharing one video-time axis. Click to jump the video, shift-drag to zoom,
+arrow keys to step, hover for a readout.
+
+Downloads:
 
 - **CSV** - one row per estimate: gaze position and video time.
 - **Detailed CSV** - 77 columns: velocity, acceleration, fixation/saccade/blink
   labels, iris offsets, eye openness, head pose, and 18 face landmarks.
-- **JSON** - metadata, calibration quality, drift correction and a fixation
-  summary.
+- **JSON** - metadata, calibration quality, drift correction, fixation summary.
 
 ## Changing the video
 
